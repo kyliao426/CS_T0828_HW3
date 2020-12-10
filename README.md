@@ -51,7 +51,7 @@
    In cell 3, it's the testing part.
   
   ## Brief Introduction
-   The major task of this assignment is to do instance segmentation on the provided Tiny PASCAL VOC dataset. There are only 1349 training images and 100 test images which contains 20 common object classes. I use Detectron2 to train Mask R-CNN with ResNext101+FPN backbone. Finally, I got the 0.58576 mask mAP (with IoU = 0.5). And there are some successful examples.
+   The major task of this assignment is to do instance segmentation on the provided Tiny PASCAL VOC dataset. There are only 1349 training images and 100 test images which contains 20 common object classes. I use Detectron2 to train Mask R-CNN with ResNext101+FPN backbone. Finally, I got the 0.58576 mask mAP (with IoU = 0.5). And there are some successful examples.</br>
   <img src="https://github.com/kyliao426/CS_T0828_HW3/blob/main/example%20images/2008_003141.jpg" width="50%" height="50%"><img src="https://github.com/kyliao426/CS_T0828_HW3/blob/main/example%20images/2010_001908.jpg" width="50%"  height="50%"> 
   
   ## Methodology
