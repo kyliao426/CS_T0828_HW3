@@ -77,7 +77,7 @@
   | 190000 | 0.54366 |
   | 200000 | 0.50398 |
   
-  </br> Table.1
+   Table.1
 
 
   | hyperparameters | value |
@@ -87,7 +87,7 @@
   | iterations(best) | 170000 |
   | learnung rate | 0.00025 |
  
- </br>Table.2
+  Table.2
   
   ## Findings and Summary
    As mentioned above, I first used the Mask R-CNN with ResNet50+FPN backbone. At first, I expect I can improve my result through this method easily. However, I got falling instead of rising score, 0.50398 in mAP. The first thing I think is there is the overfitting, so I use the model which is stored during half the duration. And I got the 0.54378 on mAP, then I test all the models I saved during training and got the Table1. After observing and thinking about it, I think this is overfitting. As you can see, the testing accuracy reached the highest at the iteration 170000, and then dropped down. I think in such a small dataset like this, if we want to solve overfitting, finding the appropriate epoch is more important than doing data augmentation. Another thing is that in addition to the significant increase in training time, though I didn’t measure the exact time, I obviously felt that the prediction time has also become very long. If we really want to apply it in reality, we need to have a choice between time and accuracy.
