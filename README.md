@@ -45,9 +45,9 @@
    #### 3. Preparing dataset
    You can download thte dataset from [here](https://drive.google.com/drive/folders/1fGg03EdBAxjFumGHHNhMrz2sMLLH04FK). And please create the folder like I build above.
    #### 4. Run
-   Now, you can run my code hw3_main.py. I have already divided them into several block.
-   In cell 1, here is import necessray libraries.
-   In cell 2, it's the training part.
+   Now, you can run my code hw3_main.py. I have already divided them into several block.</br>
+   In cell 1, here is import necessray libraries.</br>
+   In cell 2, it's the training part.</br>
    In cell 3, it's the testing part.
   
   ## Brief Introduction
